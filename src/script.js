@@ -49,6 +49,7 @@ const waterMaterial = new THREE.ShaderMaterial({
     uColorOffset: { value: 0.05 },
     uColorMultiplier: { value: 5 },
   },
+  side: THREE.DoubleSide,
 });
 
 // Debug
