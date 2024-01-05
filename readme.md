@@ -1,16 +1,22 @@
-# Three.js Journey
+# Raging Sea
 
-## Setup
-Download [Node.js](https://nodejs.org/en/download/).
-Run this followed commands:
+A raging sea made and animate with shaders in WebGL.
+You can tweak many parameters to create differents shapes.
 
-``` bash
-# Install dependencies (only the first time)
-npm install
+Exercice from [threejs-journey](https://threejs-journey.xyz/) by [Bruno Simon](https://github.com/brunosimon) to learn [three.js](https://threejs.org/)
 
-# Run the local server at localhost:8080
-npm run dev
+In the project directory, you can run:
 
-# Build for production in the dist/ directory
-npm run build
-```
+### `yarn install`
+
+Then the following command
+
+### `yarn run dev`
+
+Runs the app in the development mode.\
+Open [http://localhost:8080](http://localhost:8080) to view it in the browser.
+
+### Example
+
+![sea-frontside](./sea-frontside.png "sea-frontside")
+![sea-backside](./sea-backside.png "sea-backside")
